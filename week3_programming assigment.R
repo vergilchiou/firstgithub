@@ -12,6 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
          setinverse = setinverse,
          getinverse = getinverse)
 }
+
 #計算反矩陣
 cacheSolve <- function(x, ...) {
     m <- x$getinverse()
